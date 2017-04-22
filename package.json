@@ -1,0 +1,27 @@
+{
+  "name": "alexa-jenkins",
+  "version": "1.0.0",
+  "description": "build, list jobs through Alexa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chriton/Alexa-Jenkins.git"
+  },
+  "keywords": [
+    "alexa",
+    "jenkins",
+    "nodejs"
+  ],
+  "author": "Doru Muntean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chriton/Alexa-Jenkins/issues"
+  },
+  "homepage": "https://github.com/Chriton/Alexa-Jenkins#readme",
+  "dependencies": {
+    "jenkins-api": "^0.2.8"
+  }
+}

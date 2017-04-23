@@ -21,7 +21,7 @@ skill.intent('buildJenkinsJobIntent', {
 			// 'Jobname': 'JOBS'
 			'Jobname': 'AMAZON.LITERAL'
 		},
-		'utterances': ["{|build|deploy|start|run} {-|Jobname}", "{-|Jobname}"]
+		'utterances': ["{|build|deploy|start|run} {-|Jobname}", "{|build|deploy|start|run}", "{-|Jobname}"]
 	},
 	function(req, res) {
 		var job = req.slot('Jobname');
@@ -49,6 +49,25 @@ skill.intent('buildJenkinsJobIntent', {
 );
 
 
+skill.intent('listJenkinsJobsIntent', {
+	'slots': {},
+	'utterances': ["{|how many} {|jobs} {|are}"]
+},
+	function(req, res) {
+		var number_of_jobs = new JenkinsHelper();
+
+		number_of_jobs.listJobs().then(function(result) {
+			console.log(result);
+			// res.say(number_of_jobs.listResponse(result)).send();
+			res.say(number_of_jobs.listResponse(result)).shouldEndSession(true).send();
+		}).catch(function(err) {
+			console.log(err.statusCode);
+			var prompt = 'I\'m sorry. Jenkins responded with error code ' + err.statusCode;
+			res.say(prompt).shouldEndSession(true).send();
+		});
+		return false;
+	}
+);
 
 
 

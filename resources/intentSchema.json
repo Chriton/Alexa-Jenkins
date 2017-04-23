@@ -8,6 +8,18 @@
           "type": "AMAZON.LITERAL"
         }
       ]
+    },
+    {
+      "intent": "listJenkinsJobsIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
     }
   ]
 }

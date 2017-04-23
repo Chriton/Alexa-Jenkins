@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/Chriton/Alexa-Jenkins#readme",
   "dependencies": {
-    "jenkins-api": "^0.2.8"
+    "alexa-app": "^2.3.4",
+    "alexa-utterances": "^0.2.1",
+    "lodash": "^4.13.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
   }
 }

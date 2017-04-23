@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "intent": "buildJenkinsJobIntent",
+      "slots": [
+        {
+          "name": "Jobname",
+          "type": "AMAZON.LITERAL"
+        }
+      ]
+    }
+  ]
+}

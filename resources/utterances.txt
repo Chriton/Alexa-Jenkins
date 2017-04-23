@@ -1,0 +1,29 @@
+buildJenkinsJobIntent	{smoke test|Jobname}
+buildJenkinsJobIntent	deploy {smoke test|Jobname}
+buildJenkinsJobIntent	deploy the {smoke test|Jobname}
+buildJenkinsJobIntent	build {smoke test|Jobname}
+buildJenkinsJobIntent	build the {smoke test|Jobname}
+buildJenkinsJobIntent	start {smoke test|Jobname}
+buildJenkinsJobIntent	start the {smoke test|Jobname}
+buildJenkinsJobIntent	run {smoke test|Jobname}
+buildJenkinsJobIntent	run the {smoke test|Jobname}
+
+buildJenkinsJobIntent	{regression test|Jobname}
+buildJenkinsJobIntent	deploy {regression test|Jobname}
+buildJenkinsJobIntent	deploy the {regression test|Jobname}
+buildJenkinsJobIntent	build {regression test|Jobname}
+buildJenkinsJobIntent	build the {regression test|Jobname}
+buildJenkinsJobIntent	start {regression test|Jobname}
+buildJenkinsJobIntent	start the {regression test|Jobname}
+buildJenkinsJobIntent	run {regression test|Jobname}
+buildJenkinsJobIntent	run the {regression test|Jobname}
+
+buildJenkinsJobIntent	{ubs campaign|Jobname}
+buildJenkinsJobIntent	deploy {ubs campaign|Jobname}
+buildJenkinsJobIntent	deploy the {ubs campaign|Jobname}
+buildJenkinsJobIntent	build {ubs campaign|Jobname}
+buildJenkinsJobIntent	build the {ubs campaign|Jobname}
+buildJenkinsJobIntent	start {ubs campaign|Jobname}
+buildJenkinsJobIntent	start the {ubs campaign|Jobname}
+buildJenkinsJobIntent	run {ubs campaign|Jobname}
+buildJenkinsJobIntent	run the {ubs campaign|Jobname}

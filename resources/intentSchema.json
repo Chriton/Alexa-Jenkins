@@ -1,16 +1,16 @@
 {
   "intents": [
     {
-      "intent": "buildJenkinsJobIntent",
+      "intent": "buildJobIntent",
       "slots": [
         {
-          "name": "Jobname",
+          "name": "JOBNAME",
           "type": "AMAZON.LITERAL"
         }
       ]
     },
     {
-      "intent": "listJenkinsJobsIntent"
+      "intent": "numberOfJobsIntent"
     },
     {
       "intent": "AMAZON.StopIntent"

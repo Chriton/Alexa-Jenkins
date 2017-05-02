@@ -14,7 +14,7 @@ var http_success = [ 200, 201 ];
  * Your Jenkins address goes here
  * @type {string}
  */
-var ENDPOINT = 'http://79.115.45.174:8080';
+var ENDPOINT = 'http://86.127.228.196:8080';
 
 function JenkinsHelper() {}
 
@@ -40,9 +40,9 @@ JenkinsHelper.prototype.buildJob = function(jobName) {
  * @param statusObject
  * @returns {*}
  */
-JenkinsHelper.prototype.buildResponse = function(statusObject) {
+JenkinsHelper.prototype.buildJobResponse = function(statusObject) {
     if (http_success.indexOf(statusObject.statusCode) > -1) {
-        let template = _.template("Ok, I've started the job. ");
+        let template = _.template("Ok, I've started the job ");
         return template({
             status: statusObject.statusCode,
         });
@@ -59,7 +59,7 @@ JenkinsHelper.prototype.buildResponse = function(statusObject) {
  * Request the number of jobs from the Jenkins API
  * @returns {*}
  */
-JenkinsHelper.prototype.listJobs = function() {
+JenkinsHelper.prototype.numberOfJobs = function() {
 
 	let options = {
 		method: 'GET',
@@ -71,11 +71,11 @@ JenkinsHelper.prototype.listJobs = function() {
 };
 
 /**
- * Extract and format the number of Jenkins jobs received from the listJobs function
- * @param statusObject - the json response from the listJobs function
+ * Extract and format the number of Jenkins jobs received from the numberOfJobs function
+ * @param statusObject - the json response from the numberOfJobs function
  * @returns {*}
  */
-JenkinsHelper.prototype.listResponse = function(statusObject) {
+JenkinsHelper.prototype.numberOfJobsResponse = function(statusObject) {
 	//console.log(statusObject);
 	if (http_success.indexOf(statusObject.statusCode) > -1) {
 		let template = _.template("There are ${number_of_jobs} jobs in jenkins.");

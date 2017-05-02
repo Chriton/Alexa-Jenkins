@@ -1,39 +1,40 @@
-buildJenkinsJobIntent	deploy
-buildJenkinsJobIntent	build
-buildJenkinsJobIntent	start
-buildJenkinsJobIntent	run
+buildJobIntent	{smoke test|JOBNAME}
+buildJobIntent	build {smoke test|JOBNAME}
+buildJobIntent	build the {smoke test|JOBNAME}
+buildJobIntent	deploy {smoke test|JOBNAME}
+buildJobIntent	deploy the {smoke test|JOBNAME}
+buildJobIntent	start {smoke test|JOBNAME}
+buildJobIntent	start the {smoke test|JOBNAME}
+buildJobIntent	run {smoke test|JOBNAME}
+buildJobIntent	run the {smoke test|JOBNAME}
 
-buildJenkinsJobIntent	{smoke test|Jobname}
-buildJenkinsJobIntent	deploy {smoke test|Jobname}
-buildJenkinsJobIntent	deploy the {smoke test|Jobname}
-buildJenkinsJobIntent	build {smoke test|Jobname}
-buildJenkinsJobIntent	build the {smoke test|Jobname}
-buildJenkinsJobIntent	start {smoke test|Jobname}
-buildJenkinsJobIntent	start the {smoke test|Jobname}
-buildJenkinsJobIntent	run {smoke test|Jobname}
-buildJenkinsJobIntent	run the {smoke test|Jobname}
+buildJobIntent	{regression test|JOBNAME}
+buildJobIntent	build {regression test|JOBNAME}
+buildJobIntent	build the {regression test|JOBNAME}
+buildJobIntent	deploy {regression test|JOBNAME}
+buildJobIntent	deploy the {regression test|JOBNAME}
+buildJobIntent	start {regression test|JOBNAME}
+buildJobIntent	start the {regression test|JOBNAME}
+buildJobIntent	run {regression test|JOBNAME}
+buildJobIntent	run the {regression test|JOBNAME}
 
-buildJenkinsJobIntent	{regression test|Jobname}
-buildJenkinsJobIntent	deploy {regression test|Jobname}
-buildJenkinsJobIntent	deploy the {regression test|Jobname}
-buildJenkinsJobIntent	build {regression test|Jobname}
-buildJenkinsJobIntent	build the {regression test|Jobname}
-buildJenkinsJobIntent	start {regression test|Jobname}
-buildJenkinsJobIntent	start the {regression test|Jobname}
-buildJenkinsJobIntent	run {regression test|Jobname}
-buildJenkinsJobIntent	run the {regression test|Jobname}
+buildJobIntent	{ubs campaign|JOBNAME}
+buildJobIntent	build {ubs campaign|JOBNAME}
+buildJobIntent	build the {ubs campaign|JOBNAME}
+buildJobIntent	deploy {ubs campaign|JOBNAME}
+buildJobIntent	deploy the {ubs campaign|JOBNAME}
+buildJobIntent	start {ubs campaign|JOBNAME}
+buildJobIntent	start the {ubs campaign|JOBNAME}
+buildJobIntent	run {ubs campaign|JOBNAME}
+buildJobIntent	run the {ubs campaign|JOBNAME}
 
-buildJenkinsJobIntent	{ubs campaign|Jobname}
-buildJenkinsJobIntent	deploy {ubs campaign|Jobname}
-buildJenkinsJobIntent	deploy the {ubs campaign|Jobname}
-buildJenkinsJobIntent	build {ubs campaign|Jobname}
-buildJenkinsJobIntent	build the {ubs campaign|Jobname}
-buildJenkinsJobIntent	start {ubs campaign|Jobname}
-buildJenkinsJobIntent	start the {ubs campaign|Jobname}
-buildJenkinsJobIntent	run {ubs campaign|Jobname}
-buildJenkinsJobIntent	run the {ubs campaign|Jobname}
+numberOfJobsIntent	how many jobs are
+numberOfJobsIntent	how many jobs are in there
+numberOfJobsIntent	how many jobs are in jenkins
+numberOfJobsIntent	how many jobs he has
+numberOfJobsIntent	about the number of jobs
 
-listJenkinsJobsIntent	how many jobs are
-listJenkinsJobsIntent	how many jobs are in there
-listJenkinsJobsIntent	how many jobs are in jenkins
-listJenkinsJobsIntent	how many jobs he has
+buildJobIntent	build
+buildJobIntent	deploy
+buildJobIntent	start
+buildJobIntent	run

@@ -37,7 +37,7 @@ skill.intent('AMAZON.CancelIntent',
 skill.intent('AMAZON.HelpIntent',
 	{},
 	function(req, res) {
-		res.say("I can help you build Jenkins jobs or tell you the number of jobs Jenkins has. Which would you like me to do?").shouldEndSession(false).send();
+		res.say("I can ask Jenkins to build a job or tell you how many jobs Jenkins has. Which one would you like me to do?").shouldEndSession(false).send();
 	}
 );
 

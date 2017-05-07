@@ -1,32 +1,90 @@
+buildJobIntent	build
+buildJobIntent	deploy
+buildJobIntent	start
+buildJobIntent	run
+
+buildJobIntent	to build {BUILD_JOB_NAME}
+buildJobIntent	to build the {BUILD_JOB_NAME}
+buildJobIntent	to deploy {BUILD_JOB_NAME}
+buildJobIntent	to deploy the {BUILD_JOB_NAME}
+buildJobIntent	to start {BUILD_JOB_NAME}
+buildJobIntent	to start the {BUILD_JOB_NAME}
+buildJobIntent	to run {BUILD_JOB_NAME}
+buildJobIntent	to run the {BUILD_JOB_NAME}
+
+
+lastBuildIntent about the last result
+lastBuildIntent about the last results
+lastBuildIntent about the latest results
+
+
+lastBuildIntent about the last result for {LAST_JOB_NAME}
+lastBuildIntent about the last result for the {LAST_JOB_NAME}
+
+lastBuildIntent about the {LAST_JOB_NAME} last result
+lastBuildIntent about the {LAST_JOB_NAME} latest result
+lastBuildIntent about the {LAST_JOB_NAME} latest results
+lastBuildIntent about the last {LAST_JOB_NAME} result
+lastBuildIntent about the last {LAST_JOB_NAME} results
+lastBuildIntent about the latest {LAST_JOB_NAME} result
+lastBuildIntent about the latest {LAST_JOB_NAME} results
+lastBuildIntent about the latest {LAST_JOB_NAME}
+lastBuildIntent information about the latest {LAST_JOB_NAME}
+lastBuildIntent information about the last {LAST_JOB_NAME}
+lastBuildIntent information about {LAST_JOB_NAME}
+
+multipleIntent	{MULTIPLE_JOB_NAME}
+multipleIntent	for {MULTIPLE_JOB_NAME}
+multipleIntent	for the {MULTIPLE_JOB_NAME}
+
+numberOfJobsIntent	how many jobs are
+numberOfJobsIntent	how many jobs are in jenkins
+numberOfJobsIntent	how many jobs he has
+numberOfJobsIntent	how many jobs jenkins has
+numberOfJobsIntent	about the number of jobs
+
+
+AMAZON.HelpIntent can you help me
+AMAZON.HelpIntent can you help me with this
+AMAZON.HelpIntent can you help me please
+AMAZON.HelpIntent can you help me with what else jenkins can do
+AMAZON.HelpIntent help me with this
+AMAZON.HelpIntent what do you mean
+AMAZON.HelpIntent what do you mean by that
+AMAZON.HelpIntent what should I do
+
+
+--------OLD MODEL--------
+
 buildJobIntent	{smoke test|JOBNAME}
-buildJobIntent	build {smoke test|JOBNAME}
-buildJobIntent	build the {smoke test|JOBNAME}
-buildJobIntent	deploy {smoke test|JOBNAME}
-buildJobIntent	deploy the {smoke test|JOBNAME}
-buildJobIntent	start {smoke test|JOBNAME}
-buildJobIntent	start the {smoke test|JOBNAME}
-buildJobIntent	run {smoke test|JOBNAME}
-buildJobIntent	run the {smoke test|JOBNAME}
+buildJobIntent	{BUILD} {smoke test|JOBNAME}
+buildJobIntent	{BUILD} the {smoke test|JOBNAME}
+buildJobIntent	{BUILD} {smoke test|JOBNAME}
+buildJobIntent	{BUILD} the {smoke test|JOBNAME}
+buildJobIntent	{BUILD} {smoke test|JOBNAME}
+buildJobIntent	{BUILD} the {smoke test|JOBNAME}
+buildJobIntent	{BUILD} {smoke test|JOBNAME}
+buildJobIntent	{BUILD} the {smoke test|JOBNAME}
 
 buildJobIntent	{regression test|JOBNAME}
-buildJobIntent	build {regression test|JOBNAME}
-buildJobIntent	build the {regression test|JOBNAME}
-buildJobIntent	deploy {regression test|JOBNAME}
-buildJobIntent	deploy the {regression test|JOBNAME}
-buildJobIntent	start {regression test|JOBNAME}
-buildJobIntent	start the {regression test|JOBNAME}
-buildJobIntent	run {regression test|JOBNAME}
-buildJobIntent	run the {regression test|JOBNAME}
+buildJobIntent	{BUILD} {regression test|JOBNAME}
+buildJobIntent	{BUILD} the {regression test|JOBNAME}
+buildJobIntent	{BUILD} {regression test|JOBNAME}
+buildJobIntent	{BUILD} the {regression test|JOBNAME}
+buildJobIntent	{BUILD} {regression test|JOBNAME}
+buildJobIntent	{BUILD} the {regression test|JOBNAME}
+buildJobIntent	{BUILD} {regression test|JOBNAME}
+buildJobIntent	{BUILD} the {regression test|JOBNAME}
 
 buildJobIntent	{ubs campaign|JOBNAME}
-buildJobIntent	build {ubs campaign|JOBNAME}
-buildJobIntent	build the {ubs campaign|JOBNAME}
-buildJobIntent	deploy {ubs campaign|JOBNAME}
-buildJobIntent	deploy the {ubs campaign|JOBNAME}
-buildJobIntent	start {ubs campaign|JOBNAME}
-buildJobIntent	start the {ubs campaign|JOBNAME}
-buildJobIntent	run {ubs campaign|JOBNAME}
-buildJobIntent	run the {ubs campaign|JOBNAME}
+buildJobIntent	{BUILD} {ubs campaign|JOBNAME}
+buildJobIntent	{BUILD} the {ubs campaign|JOBNAME}
+buildJobIntent	{BUILD} {ubs campaign|JOBNAME}
+buildJobIntent	{BUILD} the {ubs campaign|JOBNAME}
+buildJobIntent	{BUILD} {ubs campaign|JOBNAME}
+buildJobIntent	{BUILD} the {ubs campaign|JOBNAME}
+buildJobIntent	{BUILD} {ubs campaign|JOBNAME}
+buildJobIntent	{BUILD} the {ubs campaign|JOBNAME}
 
 numberOfJobsIntent	how many jobs are
 numberOfJobsIntent	how many jobs are in there
@@ -34,7 +92,7 @@ numberOfJobsIntent	how many jobs are in jenkins
 numberOfJobsIntent	how many jobs he has
 numberOfJobsIntent	about the number of jobs
 
-buildJobIntent	build
-buildJobIntent	deploy
-buildJobIntent	start
-buildJobIntent	run
+buildJobIntent	{BUILD}
+buildJobIntent	{BUILD}
+buildJobIntent	{BUILD}
+buildJobIntent	{BUILD}

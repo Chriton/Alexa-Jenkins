@@ -4,8 +4,26 @@
       "intent": "buildJobIntent",
       "slots": [
         {
-          "name": "JOBNAME",
-          "type": "AMAZON.LITERAL"
+          "name": "BUILD_JOB_NAME",
+          "type": "JOB_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "lastBuildIntent",
+      "slots": [
+        {
+          "name": "LAST_JOB_NAME",
+          "type": "JOB_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "multipleIntent",
+      "slots": [
+        {
+          "name": "MULTIPLE_JOB_NAME",
+          "type": "JOB_NAMES"
         }
       ]
     },

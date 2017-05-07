@@ -1,0 +1,13 @@
+name: BUILD
+type: BUILD_SYNONYM
+    build
+    deploy
+    start
+    run
+
+
+name: JOBNAME
+type: JOB_NAMES
+    smoke test
+    regression test
+    ubs campaign

@@ -1,3 +1,0 @@
-smoke test
-regression test
-ubs campaign
